@@ -1,6 +1,4 @@
-# Sistema de Pagamentos API — Versão Simplificada
-
-Esta é uma versão mais simples do trabalho, feita para ficar mais fácil de entender, explicar e apresentar.
+# Sistema de Pagamentos API 
 
 A API foi feita com **FastAPI**, **SQLAlchemy** e **SQLite**.
 
@@ -155,9 +153,3 @@ sistema_pagamentos_api_simplificado/
 ├── requirements.txt
 └── README.md
 ```
-
-## O que foi simplificado
-
-A primeira versão tinha muitos arquivos, services, routers separados e worker externo. Esta versão deixa quase tudo em `main.py`, para facilitar o entendimento.
-
-Mesmo assim, ela mantém a ideia principal do trabalho: cadastro de preços, vendas e notificação automática quando o preço de um produto fica menor do que o preço já pago pelo cliente.
